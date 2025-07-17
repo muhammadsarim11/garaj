@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garaj - Landing Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <header id="navbar">
+      <div class="logo">
+        <img src="./assets/images/garaj-logo.svg" alt="garaj_logo" />
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/"
+              >Products
+              <img
+                src="./assets/icons/arrow-down-black.svg"
+                alt="arrow down"
+                style="width: 1.75rem; height: auto"
+            /></a>
+          </li>
+          <li>
+            <a href="/"
+              >Browse by Industry Vertical
+              <img
+                src="./assets/icons/arrow-down-black.svg"
+                alt="arrow down"
+                style="width: 1.75rem; height: auto"
+            /></a>
+          </li>
+          <li>
+            <a href="/"
+              >Partner Network
+              <img
+                src="./assets/icons/arrow-down-black.svg"
+                alt="arrow down"
+                style="width: 1.75rem; height: auto"
+            /></a>
+          </li>
+          <li>
+            <a href="/"
+              >Resources
+              <img
+                src="./assets/icons/arrow-down-black.svg"
+                alt="arrow down"
+                style="width: 1.75rem; height: auto"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <button style="font-weight: 500">Sign in</button>
+        <button class="contact-btn">
+          Contact Us
+          <img
+            src="./assets/icons/arrow-down-black.svg"
+            alt="arrow down"
+            style="width: 1.75rem; height: auto"
+          />
+        </button>
+      </div>
+
+      <button class="menu-icon" id="menuToggle">&#9776;</button>
+
+      <div class="mobile-menu" id="mobileMenu" style="display: none">
+        <a href="/">Products <span>&#9662;</span></a>
+        <a href="/">Browse by Industry Vertical <span>&#9662;</span></a>
+        <a href="/">Partner Network <span>&#9662;</span></a>
+        <a href="/">Resources <span>&#9662;</span></a>
+        <button>Sign in</button>
+        <button class="contact-btn">Contact Us</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="canvas-container">
+        <canvas canvas id="canv" width="32" height="32"> ></canvas>
+      </div>
+      <div class="hero-content">
+        <h1 class="gothic">Cloud Made Simple</h1>
+        <h2 class="gothic">
+          Powered Locally <br class="lg-break" />
+          Through Garaj
+        </h2>
+        <p>
+          The fastest way to deploy, manage, and grow your digital presence.
+        </p>
+        <button>Start your Free Trial</button>
+      </div>
+
+      <div class="hero-img">
+        <img src="./assets/images/hero_image.jpg" alt="hero_img" />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="top">
+        <h2 class="gothic">What&apos;s New on Garaj Cloud</h2>
+      </div>
+
+      <div class="bottom">
+        <div class="card-grid" id="cardGrid">
+          <!-- JS will insert cards here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Animations Section -->
+    <section class="animation-section">
+      <div class="first-animation-container">
+        <div class="left">
+          <h3 class="core-heading">Explore Our Core Solutions</h3>
+          <h1 class="core-title">
+            Discover a selection <br />
+            of Garaj’s powerful <br />
+            offerings, designed to <br />
+            support your digital <br />
+            transformation.
+          </h1>
+        </div>
+
+        <div class="right">
+          <div class="right-content">
+            <!-- lines -->
+            <svg
+              width="100%"
+              height="100%"
+              viewBox="0 0 516 530"
+              preserveAspectRatio="xMidYMid meet"
+              class="boxes-lines svg-pipeline"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                id="path2"
+                d="M210.061 201.005V-0.00488281"
+                stroke="url(#liveGradient)"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+              <path
+                id="path1"
+                d="M29.06055 323L29.06055 98"
+                stroke="url(#liveGradient)"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+              <path
+                id="path4"
+                d="M89.0605 500.514H290.285C290.285 507.636 290.285 400.904 290.285 440"
+                stroke="url(#liveGradient)"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                id="path5"
+                d="M108.054 512.372H401.672"
+                stroke="url(#liveGradient)"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+              <path
+                id="path3"
+                d="M392.061 114V223H510.061"
+                stroke="url(#liveGradient)"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="liveGradient"
+                  x1="0"
+                  y1="444"
+                  x2="0"
+                  y2="0"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0%" stop-color="#FFC107">
+                    <animate
+                      attributeName="offset"
+                      values="0;1"
+                      dur="6s"
+                      repeatCount="indefinite"
+                    />
+                  </stop>
+                  <stop offset="25%" stop-color="#FF9800">
+                    <animate
+                      attributeName="offset"
+                      values="0.25;1.25"
+                      dur="6s"
+                      repeatCount="indefinite"
+                    />
+                  </stop>
+                  <stop offset="50%" stop-color="#FF6D00">
+                    <animate
+                      attributeName="offset"
+                      values="0.5;1.5"
+                      dur="6s"
+                      repeatCount="indefinite"
+                    />
+                  </stop>
+                  <stop offset="75%" stop-color="#3E2723">
+                    <animate
+                      attributeName="offset"
+                      values="0.75;1.75"
+                      dur="6s"
+                      repeatCount="indefinite"
+                    />
+                  </stop>
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <!-- boxes -->
+            <div class="boxes-container">
+              <!-- You can place this inside your grid -->
+              <div class="icon-outlined relative">
+                <img src="./assets/icons/1.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/1_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/2.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/2_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box4">
+                <img src="./assets/icons/3.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/3_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/6.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/6_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box2">
+                <img src="./assets/icons/7.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/7_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/10.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/10_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box5">
+                <img src="./assets/icons/11.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/11_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/14.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/14_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box3">
+                <img src="./assets/icons/15.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/15_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/16.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/16_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined" id="box6">
+                <img src="./assets/icons/18.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/18_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box1">
+                <img src="./assets/icons/19.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/19_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/21.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/21_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/22.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/22_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/27.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/27_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined" id="box7">
+                <img src="./assets/icons/28.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/28_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/29.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/29_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined" id="box8">
+                <img src="./assets/icons/32.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/32_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-vacent"></div>
+              <div class="icon-vacent"></div>
+
+              <div class="icon-outlined" id="box9">
+                <img src="./assets/icons/35.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/35_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+
+              <div class="icon-outlined">
+                <img src="./assets/icons/36.svg" alt="" class="icon-default" />
+                <img
+                  src="./assets/icons/36_color.svg"
+                  alt=""
+                  class="icon-colored"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second-animation-container">
+        <div class="second-left-section">
+          <div class="second-icon-row">
+            <img
+              src="./assets/icons/v_icon.svg"
+              alt="v_icon"
+              class="second-icon-img"
+            />
+            <h3 class="second-subheading">Infrastructure as a Service</h3>
+          </div>
+          <h1 class="second-main-heading">VDC (Virtual Data Center)</h1>
+          <p class="second-description">
+            Get a pool of cloud-based infrastructure resources—including
+            compute, memory, storage, and bandwidth—tailored to your specific
+            business needs.
+          </p>
+          <button class="second-learn-btn">Learn More</button>
+        </div>
+        <div class="second-right-section">
+          <div class="buttons-left">
+            <div class="icon-outlined second-boxes">
+              <img src="./assets/icons/1.svg" alt="" class="icon-default" />
+              <img
+                src="./assets/icons/1_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined second-boxes">
+              <img src="./assets/icons/1.svg" alt="" class="icon-default" />
+              <img
+                src="./assets/icons/1_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+          <div class="second-main">
+            <svg
+              id="second-line-1"
+              viewBox="0 0 145 74"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="side-line second-svg-side"
+            >
+              <path
+                d="M2.30469 73.7969V2.79688H144.305"
+                stroke="#EFA63E"
+                stroke-width="3.65863"
+              />
+            </svg>
+            <svg
+              id="second-line-2"
+              viewBox="0 0 145 74"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="side-line second-svg-side"
+            >
+              <path
+                d="M2.30469 73.7969V2.79688H144.305"
+                stroke="#EFA63E"
+                stroke-width="3.65863"
+              />
+            </svg>
+            <svg
+              id="second-line-3"
+              viewBox="0 0 145 74"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="side-line second-svg-side"
+            >
+              <path
+                d="M2.30469 73.7969V2.79688H144.305"
+                stroke="#EFA63E"
+                stroke-width="3.65863"
+              />
+            </svg>
+            <svg
+              id="second-line-4"
+              viewBox="0 0 145 74"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="side-line second-svg-side"
+            >
+              <path
+                d="M2.30469 73.7969V2.79688H144.305"
+                stroke="#EFA63E"
+                stroke-width="3.65863"
+              />
+            </svg>
+            <img
+              src="./assets/images/mobile.svg"
+              alt="mobile_img"
+              class="second-mobile-img"
+            />
+            <svg
+              viewBox="0 0 521 985"
+              class="mobile-border-svg second-svg-main"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="2.06055"
+                y="2.28711"
+                width="516"
+                height="980"
+                rx="68"
+                stroke="url(#paint0_linear_107_3887)"
+                stroke-width="4"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_107_3887"
+                  x1="260.061"
+                  y1="0.287109"
+                  x2="260.061"
+                  y2="984.287"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#000" />
+                  <stop offset="0.504808" stop-color="#EFA63E" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="buttons-right">
+            <div class="icon-outlined second-boxes">
+              <img src="./assets/icons/1.svg" alt="" class="icon-default" />
+              <img
+                src="./assets/icons/1_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined second-boxes">
+              <img src="./assets/icons/1.svg" alt="" class="icon-default" />
+              <img
+                src="./assets/icons/1_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="third-animation-container">
+        <div class="third-left">
+          <div class="third-icon-row">
+            <img
+              src="./assets/icons/v_icon.svg"
+              alt="v_icon"
+              class="third-icon-img"
+            />
+            <h3 class="third-subheading">Data Center</h3>
+          </div>
+          <h1 class="third-heading">Digital Park</h1>
+          <p class="third-description">
+            Pakistan’s largest Tier 3 certified data centers, equipped with
+            state-of-the-art infrastructure and the capacity to host 300+ IT
+            racks for secure, scalable data hosting.
+          </p>
+          <button class="third-learn-btn">Learn More</button>
+        </div>
+
+        <div class="third-right">
+          <div class="third-icons-top">
+            <div class="icon-outlined third-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined third-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+
+          <svg
+            id="third-path1"
+            class="third-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            id="third-path2"
+            class="third-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="left: 22rem"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div class="third-image-wrapper">
+            <img
+              src="./assets/images/3rd_animation_image.svg"
+              alt="animation_image"
+              class="third-anim-img"
+            />
+            <svg
+              id="third-path1"
+              class="third-svg-main svg-pipeline"
+              viewBox="0 0 751 424"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.06152"
+                y="1.38477"
+                width="748"
+                height="421"
+                rx="39"
+                stroke="url(#third-paint2)"
+                stroke-width="4"
+              />
+              <defs>
+                <linearGradient
+                  id="third-paint2"
+                  x1="375.062"
+                  y1="0.384766"
+                  x2="375.062"
+                  y2="423.385"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0.5" stop-color="#EFA63E" />
+                  <stop offset="1" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <svg
+            id="third-path3"
+            class="third-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="top: 33.1rem; left: 27rem; transform: rotate(180deg)"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            id="third-path4"
+            class="third-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="top: 33.1rem; left: 9rem; transform: rotate(180deg)"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="third-icons-bottom">
+            <div class="icon-outlined third-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined third-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fourth-animation-container">
+        <div class="fourth-left">
+          <div class="fourth-icon-row">
+            <img
+              src="./assets/icons/v_icon.svg"
+              alt="v_icon"
+              class="fourth-icon-img"
+            />
+            <h3 class="fourth-subheading">Network & Security</h3>
+          </div>
+          <h1 class="fourth-heading">PAM (Privileged Access Management)</h1>
+          <p class="fourth-description">
+            A robust cybersecurity framework that controls and monitors access
+            to critical systems, minimizing the risk of unauthorized activities.
+          </p>
+          <button class="fourth-learn-btn">Learn More</button>
+        </div>
+
+        <div class="fourth-right">
+          <div class="fourth-icons-top">
+            <div class="icon-outlined fourth-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined fourth-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+
+          <svg
+            id="fourth-path1"
+            class="fourth-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            id="fourth-path2"
+            class="fourth-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="left: 22rem"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div class="fourth-image-wrapper">
+            <img
+              src="./assets/images/3rd_animation_image.svg"
+              alt="animation_image"
+              class="fourth-anim-img"
+            />
+            <svg
+              class="fourth-svg-main svg-pipeline"
+              viewBox="0 0 751 424"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.06152"
+                y="1.38477"
+                width="748"
+                height="421"
+                rx="39"
+                stroke="url(#fourth-paint2)"
+                stroke-width="4"
+              />
+              <defs>
+                <linearGradient
+                  id="fourth-paint2"
+                  x1="375.062"
+                  y1="0.384766"
+                  x2="375.062"
+                  y2="423.385"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0.5" stop-color="#EFA63E" />
+                  <stop offset="1" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <svg
+            id="fourth-path3"
+            class="fourth-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="top: 33.1rem; left: 27rem; transform: rotate(180deg)"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            id="fourth-path4"
+            class="fourth-svg-top svg-pipeline"
+            viewBox="0 0 107 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="top: 33.1rem; left: 9rem; transform: rotate(180deg)"
+          >
+            <path
+              d="M105.061 100.384L105.061 1.38428L0.0605479 1.38428"
+              stroke="url(#third-paint1)"
+              stroke-width="2.74397"
+            />
+            <defs>
+              <linearGradient
+                id="third-paint1"
+                x1="52.5605"
+                y1="100.384"
+                x2="52.5606"
+                y2="1.38428"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0.355769" stop-color="#FF9600" />
+                <stop offset="1" stop-color="#EFA63E" />
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div class="fourth-icons-bottom">
+            <div class="icon-outlined fourth-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+            <div class="icon-outlined fourth-boxes">
+              <img src="./assets/icons/2.svg" alt="" class="icon-outline" />
+              <img
+                src="./assets/icons/2_color.svg"
+                alt=""
+                class="icon-colored"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <!-- Left Side -->
+      <div class="left">
+        <h1 class="gothic">Your Gateway to</h1>
+        <h1 class="gothic">Scalable Solutions</h1>
+        <p>
+          Access flexible, cloud-powered tools built to grow with your business
+          — simple to deploy, easy to scale.
+        </p>
+        <button>Get Started for Free</button>
+      </div>
+
+      <!-- Right Side -->
+      <div class="right">
+        <div class="accordian-container" id="accordionContainer">
+          <!-- JS will inject accordions -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions-section">
+      <div class="solutions-container">
+        <h2>Solutions That Matter</h2>
+        <div class="solution-card-grid" id="sectionCardContainer">
+          <!-- JS will render cards here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Customers Section -->
+    <section class="customer-section">
+      <h2 class="gothic">Customer Stories</h2>
+
+      <div class="customer-content">
+        <!-- Top Section -->
+        <div
+          class="top-section"
+          style="padding-bottom: 2.5rem; border-bottom: 1px solid #bcbcbc"
+        >
+          <h3 class="gothic">OpenAI</h3>
+          <h4>
+            “ If you want your startup to succeed, your business needs to be
+            online. The world is connected. ”
+          </h4>
+          <a href="/">
+            Read The Full Story
+            <img
+              src="./assets/icons/arrow-right.svg"
+              alt="arrow icon"
+              style="width: 1.75rem; height: auto"
+            />
+          </a>
+        </div>
+
+        <!-- Cards -->
+        <div class="customer-cards-container" id="customerCards"></div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section">
+      <h2>Partners</h2>
+
+      <div class="partners-container" id="partnersContainer">
+        <!-- Partner logos will be rendered here -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <!-- Column 1 -->
+        <div>
+          <div>
+            <img
+              src="./assets/images/footer-logo.svg"
+              alt="Garaj Logo"
+              class="footer-logo"
+            />
+            <h3 class="gothic">
+              Partner of choice for Cloud, <br />
+              Cybersecurity, & IT Solutions
+            </h3>
+            <div class="socials" id="socialIcons"></div>
+          </div>
+          <div style="margin-top: 6rem">
+            <h3 class="heading gothic" style="font-weight: 600">Contact Us:</h3>
+            <ul class="contact">
+              <li>
+                <img src="./assets/icons/phone.svg" alt="Phone" />
+                <span>0304-1110365</span>
+              </li>
+              <li>
+                <img src="./assets/icons/email.svg" alt="Email" />
+                <span>cloud.support@jazz.com.pk</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div>
+          <h3 class="heading">Infrastructure as a Service (IaaS)</h3>
+          <ul>
+            <li>Virtual Data Center (VDC)</li>
+            <li>Object Storage</li>
+          </ul>
+
+          <div style="margin-top: 2rem">
+            <h3 class="heading">Business Continuity</h3>
+            <ul>
+              <li>Backup as a Service</li>
+              <li>Backup for M365</li>
+              <li>Disaster Recovery as a Service (DRaaS)</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 2rem">
+            <h3 class="heading">Digital Solutions</h3>
+            <ul>
+              <li>Digital Park (Tier 3 Data Center)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div>
+          <h3 class="heading">Productivity & SaaS</h3>
+          <ul>
+            <li>Microsoft Suite</li>
+            <li>Garaj Mail</li>
+            <li>Garaj Cast</li>
+            <li>FieldSync</li>
+            <li>TibbIT</li>
+            <li>Garaj 24/7</li>
+            <li>SalesSync</li>
+            <li>Red Hat CCSP</li>
+            <li>WebKaari</li>
+            <li>Samsung Knox</li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div>
+          <h3 class="heading">Network & Security</h3>
+          <ul>
+            <li>Secure Access Service Edge (SASE)</li>
+            <li>SD-WAN</li>
+            <li>Unified Threat Protection</li>
+            <li>Web Application Firewall (WAF)</li>
+            <li>Privileged Access Management (PAM)</li>
+            <li>Endpoint Detection & Response (EDR)</li>
+            <li>Next Gen Firewall (NGFW)</li>
+            <li>Cloudflare Professional Services</li>
+            <li>Extended Detection & Response (XDR)</li>
+          </ul>
+
+          <div style="margin-top: 2rem">
+            <h3 class="heading">Customer Engagement</h3>
+            <ul>
+              <li>Omni Channel Contact Center Solutions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Copyright -->
+      <hr />
+      <p class="copyright">© Garaj 2025 All Copyright Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./animations/heroAnimation.js"></script>
+    <script src="./animations/firstAnimation.js"></script>
+    <script src="./animations/secondAnimation.js"></script>
+    <script src="./animations/thirdAnimation.js"></script>
+    <script src="./animations/fourthAnimation.js"></script>
+  </body>
+</html>
